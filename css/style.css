@@ -2,6 +2,39 @@
 body {
     font-size: 24px;
 }
-#container {
 
+#container {
+border: solid 2px black;
+display: grid;
+height: 75vh;
+grid-template-areas: 
+'hd'
+'nv'
+'mn'
+'ft';
+}
+
+header{
+    grid-area: hd;
+    background-color: burlywood;
+    border: solid 1px black;
+    text-align: center;
+}
+
+nav{
+    grid-area: nv;
+    border: solid 1px black;
+}
+
+main{
+    grid-area: mn;
+    display: grid;
+    border: solid 1px black;
+}
+
+footer{
+    grid-area: ft;
+    background-color:  burlywood;
+    border: solid 1px black;
+    text-align: center;
 }
