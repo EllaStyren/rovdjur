@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Document</title>
+    <title>Mobilsida</title>
 </head>
+
 <body>
     <!-- Denna fil skall alltid heta index.html och är den första filen på en hemsida -->
- 
- <div id="container">
-      
-<header> <img src="img/varglogga.png" alt="Varg logga">
-   <h1>VARGEN</h1> 
-   <img src="img/wolf.jpeg" alt="Varg">
-  
-</header>
-<nav>
-     <h1><a href="omvarg.html">Varg</a></h1>
-     <h1><a href="sida.html">idk</a></h1>
-    </nav>
-<main>
-    <h2>Om Vargen</h2>
-    <h3>Global spridning</h3>
 
-    <p>
-            Varg, gråvarg eller ulv (Canis lupus) är ett rovdjur vars utbredningsområde sträcker sig över stora delar av världen. Vargen är det största vilda hunddjuret och en fullvuxen varg väger vanligen 30 till 50 kg[3]. En mängd underarter är beskrivna men det vetenskapligt faktiskt accepterade antalet är under diskussion. 
-            Vargen är även stamfader till hunden.
-    </p>
+    <div id="container">
 
-</main>
-<footer>
-    <h3>Kontakta oss</h3>
-    <ul>
-        <li>00000444</li>
-        <li>facebook</li>
-        <li>Instagram</li>
-    </ul>
-</footer>
+        <header>
+            <div class="main-title">
+                <div class="logo">
+                    <img src="img/varglogga.png" alt="Varg logga">
+                </div>
+                <h1>VARGEN</h1>
+            </div>
+            <img src="img/wolf.jpeg" alt="Varg">
+        </header>
+        <nav>
 
- </div>
+            <h1><a class="active" href="index.html">Vargen</a></h1>
+            <h1><a href="fakta.html">Fakta</a></h1>
+            <h1><a href="wwf.html">WWF</a></h1>
+
+        </nav>
+        <main>
+            <h2>Om Vargen</h2>
+            <h3>Global spridning</h3>
+
+            <p>
+                Varg, gråvarg eller ulv (Canis lupus) är ett rovdjur vars utbredningsområde sträcker sig över stora
+                delar av världen. Vargen är det största vilda hunddjuret och en fullvuxen varg väger vanligen 30 till 50
+                kg[3]. En mängd underarter är beskrivna men det vetenskapligt faktiskt accepterade antalet är under
+                diskussion.
+                Vargen är även stamfader till hunden.
+            </p>
+
+        </main>
+        <footer>
+            <h3>Kontakta oss</h3>
+            <ul>
+                <li><img class="svg icon" src="img/phone-solid.svg"><span>Ring oss på +46 123 45 678</span></li>
+                <li><img class="svg icon" src="img/facebook-brands.svg"><span>Vår Facebook @vargen</span></li>
+                <li><img class="svg icon" src="img/instagram-brands.svg"><span>Maila oss varg@mail.se</span></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
